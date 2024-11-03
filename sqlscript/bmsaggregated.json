@@ -1,0 +1,17 @@
+{
+	"name": "bmsaggregated",
+	"properties": {
+		"content": {
+			"query": "select * from dbo.bookings_fact order by order_id",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "airbnbdwh",
+				"poolName": "airbnbdwh"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
