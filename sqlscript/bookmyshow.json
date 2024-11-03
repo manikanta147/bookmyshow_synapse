@@ -1,0 +1,17 @@
+{
+	"name": "bookmyshow",
+	"properties": {
+		"content": {
+			"query": "create SCHEMA bookmyshow;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "airbnbdwh",
+				"poolName": "airbnbdwh"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
